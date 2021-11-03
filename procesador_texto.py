@@ -6,6 +6,8 @@ retorno: el numero de caracteres de la cadena de entrada
 """
 
 # CONTAR CARACTERES
+
+
 def contar_caracteres(cadena):
     cuenta = 0
     for i in range(len(cadena)):
