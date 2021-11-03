@@ -16,6 +16,4 @@ def contar_caracteres(cadena):
 
 def contar_palabras(cadena):
     palabras = cadena.split()
-    return palabras.len(palabras)
-
-contar_palabras(input())
+    return len(palabras)
