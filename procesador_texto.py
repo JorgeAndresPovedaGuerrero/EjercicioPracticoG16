@@ -20,3 +20,8 @@ def contar_a(cadena):
         if i == "a":
             contador += 1
     return contador
+
+def contar_palabras(cadena):
+    palabras = cadena.split()
+    return len(palabras)
+
